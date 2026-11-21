@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Award, Medal, Trash2, Trophy } from 'lucide-react';
 import { BIKE_COLOR_PALETTES, BIKE_MODELS } from '../data/wordQuestions';
 import { LeaderboardEntry } from '../types/game';
+import championTrophyBadgeImg from '../assets/images/champion_trophy_badge_1795269410881.jpg';
 
 interface LeaderboardViewProps {
   entries: LeaderboardEntry[];
@@ -40,7 +41,7 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-5">
         <div className="flex items-center gap-4">
           <img
-            src="/src/assets/images/champion_trophy_badge_1795269410881.jpg"
+            src={championTrophyBadgeImg}
             alt="Piala Juara WordCross Arena"
             referrerPolicy="no-referrer"
             className="w-16 h-16 rounded-xl object-cover border border-amber-400/40 shrink-0"

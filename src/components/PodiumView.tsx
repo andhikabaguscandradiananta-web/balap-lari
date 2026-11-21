@@ -3,6 +3,7 @@ import { ArrowRight, Award, CheckCircle2, RotateCcw, Trophy } from 'lucide-react
 import { BIKE_COLOR_PALETTES, LEVEL_DEFINITIONS } from '../data/wordQuestions';
 import { PlayerConfig, RaceMode } from '../types/game';
 import { BikePreviewSvg } from './BikePreviewSvg';
+import championTrophyBadgeImg from '../assets/images/champion_trophy_badge_1795269410881.jpg';
 
 export interface PlayerSummaryStats {
   player: PlayerConfig;
@@ -49,7 +50,7 @@ export const PodiumView: React.FC<PodiumViewProps> = ({
       <div className="flex flex-col md:flex-row items-center justify-between gap-6 rounded-2xl bg-slate-900 border border-slate-800 p-6">
         <div className="flex items-center gap-5">
           <img
-            src="/src/assets/images/champion_trophy_badge_1795269410881.jpg"
+            src={championTrophyBadgeImg}
             alt="Piala Juara"
             referrerPolicy="no-referrer"
             className="w-20 h-20 rounded-xl object-cover border border-amber-400/50 shrink-0"

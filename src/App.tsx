@@ -25,6 +25,7 @@ import { TeacherDashboardView } from './components/TeacherDashboardView';
 import { TeacherLoginModal } from './components/TeacherLoginModal';
 import { TrackCanvas } from './components/TrackCanvas';
 import { WordMaterialModal } from './components/WordMaterialModal';
+import runningArenaHeroImg from './assets/images/running_arena_hero_1795272127368.jpg';
 import {
   BIKE_COLOR_PALETTES,
   DEFAULT_PLAYERS,
@@ -1239,7 +1240,7 @@ export default function App() {
               {/* Hero Visual Image */}
               <div className="lg:col-span-6 relative min-h-[260px]">
                 <img
-                  src="/src/assets/images/running_arena_hero_1795272127368.jpg"
+                  src={runningArenaHeroImg}
                   alt="Arena Lomba Lari Rintangan WordCross"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
