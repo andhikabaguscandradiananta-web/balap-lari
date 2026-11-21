@@ -1,0 +1,6 @@
+{
+  "name": "WordCross Arena",
+  "description": "Permainan lomba motor cross edukatif 4 pemain di papan interaktif digital untuk menguji penguasaan materi Microsoft Word.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
